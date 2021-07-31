@@ -5,6 +5,9 @@
     background-color: rgba(67, 67, 67, 0.8);
     color: white;
     padding: 0px 150px;
+    position: fixed;      
+    width: 84%;
+    
 }
 
 .logo-item{
@@ -49,3 +52,66 @@ a{
     text-decoration: none;
 }
 
+/* hero css */
+
+.hero{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: rgb(106, 106, 106);
+}
+
+#noMarginLeft{
+    display: inline-block;
+}
+
+.heroText{
+    display: inline-block;
+    padding-left: 150px;
+    padding-right: 300px;
+    
+}
+
+h1{
+    color: rgb(255, 154, 153);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+}
+
+#role{
+    margin-top: 0;
+}
+
+hr{
+    color: rgb(67, 67, 67);
+    border-top: 7px solid rgb(67, 67, 67);
+    margin: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.heroButtons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button1{
+    display: inline-block;
+    background-color: rgb(255, 154, 153);
+    border: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    border-radius: 10px;
+    height: 75px;
+    width: 267px;
+}
